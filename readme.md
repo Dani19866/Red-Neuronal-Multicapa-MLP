@@ -70,26 +70,15 @@ Este proyecto está construido 100% en Python y utiliza las siguientes librería
 ---
 
 ## 📂 Estructura de Archivos
-├── main.py # 🚀 Punto de entrada. Lanza la GUI inicial. 
-
-├── perceptron.py # 🧠 Clase principal del MLP (lógica de feedforward, backpropagation, ReLU). 
-
-├── gui_controller.py # 🎮 Lógica de validación de los formularios de la GUI. 
-
-├── gui_functions.py # ⚙️ Funciones para los botones (train, feedforward, save_mlp). 
-
-├── utils.py # 🛠️ Funciones auxiliares (leer CSV, seleccionar archivos). 
-
-│ ├── config/ 
-
-│   └── config_mlp.json # 💾 Ejemplo de una red guardada (pesos y sesgos). 
-
-│ └── CSV/ 
-
-    ├── 2-d_2-class_train.csv # 📊 Datos de entrenamiento (2D, 2 clases). 
-    
-    ├── 2-d_2-class_test.csv # 🧪 Datos de prueba (2D, 2 clases). 
-    
-    ├── 3-d_4-class_train.csv # 📊 Datos de entrenamiento (3D, 4 clases).
-    
-    └── 3-d_4-class_test.csv # 🧪 Datos de prueba (3D, 4 clases).
+      ├── main.py # 🚀 Punto de entrada. Lanza la GUI inicial. 
+      ├── perceptron.py # 🧠 Clase principal del MLP (lógica de feedforward, backpropagation, ReLU). 
+      ├── gui_controller.py # 🎮 Lógica de validación de los formularios de la GUI. 
+      ├── gui_functions.py # ⚙️ Funciones para los botones (train, feedforward, save_mlp). 
+      ├── utils.py # 🛠️ Funciones auxiliares (leer CSV, seleccionar archivos).
+      │ ├── config/
+      │   └── config_mlp.json # 💾 Ejemplo de una red guardada (pesos y sesgos).
+      │ └── CSV/ 
+          ├── 2-d_2-class_train.csv # 📊 Datos de entrenamiento (2D, 2 clases). 
+          ├── 2-d_2-class_test.csv # 🧪 Datos de prueba (2D, 2 clases).
+          ├── 3-d_4-class_train.csv # 📊 Datos de entrenamiento (3D, 4 clases).
+          └── 3-d_4-class_test.csv # 🧪 Datos de prueba (3D, 4 clases).
