@@ -56,7 +56,7 @@ Este proyecto está construido 100% en Python y utiliza las siguientes librería
 
 ---
 
-## 🚀 Flujo de Trabajo Básico:
+## 🚀 Flujo de Trabajo Básico
 
 1.  Al iniciar, elige **"Crear un nuevo perceptrón"**.
 2.  Rellena el formulario con la arquitectura (ej: 2 entradas, 1 salida, 2 capas ocultas con 4 y 3 neuronas).
